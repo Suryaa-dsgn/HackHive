@@ -1,9 +1,48 @@
 # HackHive
 
-<div align="center">
-  <img src="public/logo.png" alt="HackHive Logo" width="150" />
-  <h3>Connect with the perfect team for your next hackathon</h3>
-</div>
+A platform for connecting hackathon participants, forming teams, and showcasing projects.
+
+## Features
+
+- User registration and authentication
+- Browse upcoming hackathons
+- Team formation and matching
+- Profile management
+- Skills and interest matching
+
+## Tech Stack
+
+- React
+- TypeScript
+- Framer Motion
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+
+## Project Structure
+
+- `/src`: Source code
+  - `/components`: Reusable UI components
+  - `/pages`: Page components
+  - `/assets`: Static assets
+  - `/utils`: Utility functions
+  - `/context`: React context providers
 
 ## About HackHive
 
@@ -16,37 +55,6 @@ HackHive is a platform designed to help developers, designers, and innovators fi
 - **Team Collaboration**: Built-in tools for project management and communication
 - **Skill Showcase**: Build your profile showcasing your skills and past projects
 - **Real-time Notifications**: Stay updated with team invites and hackathon deadlines
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14.0.0 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-   ```
-   git clone https://github.com/yourusername/hackhive.git
-   cd hackhive
-   ```
-
-2. Install dependencies
-   ```
-   npm install
-   # or
-   yarn
-   ```
-
-3. Start the development server
-   ```
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. Open [http://localhost:5173](http://localhost:5173) to view the app in your browser
 
 ## Technologies Used
 
