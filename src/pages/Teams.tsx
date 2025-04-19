@@ -11,17 +11,6 @@ interface TeamMember {
   isLeader: boolean;
 }
 
-interface Message {
-  id: number;
-  sender: {
-    id: number;
-    name: string;
-    avatarUrl: string;
-  };
-  content: string;
-  timestamp: string;
-}
-
 interface Team {
   id: string;
   name: string;
