@@ -2,30 +2,6 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const Home = () => {
-  const featuredHackathons = [
-    {
-      id: 1,
-      title: 'TechCrunch Disrupt Hackathon',
-      date: 'May 15-17, 2023',
-      location: 'San Francisco, CA',
-      image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
-    },
-    {
-      id: 2,
-      title: 'HackMIT',
-      date: 'September 18-20, 2023',
-      location: 'Cambridge, MA',
-      image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
-    },
-    {
-      id: 3,
-      title: 'PennApps',
-      date: 'October 8-10, 2023',
-      location: 'Philadelphia, PA',
-      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
-    }
-  ];
-
   return (
     <div className="min-h-screen">
       {/* Hero Section */}

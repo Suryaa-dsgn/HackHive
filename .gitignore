@@ -37,3 +37,6 @@ pnpm-debug.log*
 # TypeScript
 *.tsbuildinfo 
 node_modules
+
+# Local Netlify folder
+.netlify
